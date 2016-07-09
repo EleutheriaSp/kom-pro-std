@@ -16,7 +16,7 @@ public abstract class RozrachunkiStd{
 		return new RozrachunkiStd(){
 			private List<StatusNaleznosciPro> statusy;
 
-			@Override public List<StatusNaleznosciPro> odbStatusyNaleznosci() {
+			@Override public List<StatusNaleznosciPro> odbStatusyNaleznosci(){
 				if( statusy== null){
 					CriteriaBuilder cb= em.getCriteriaBuilder();
 					CriteriaQuery<StatusNaleznosciPro> zapytanie= cb.createQuery( StatusNaleznosciPro.class);
