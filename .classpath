@@ -33,5 +33,6 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Apache/Derby/db-derby-10.10.2.0-bin/lib/derbyclient.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
